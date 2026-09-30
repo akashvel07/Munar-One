@@ -57,9 +57,9 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
     : 1
 
   return (
-    <div className="flex h-screen h-dvh bg-forest-950 overflow-hidden">
+    <div className="flex h-screen h-dvh bg-transparent overflow-hidden">
       {/* Desktop Sidebar */}
-      <aside className="hidden lg:flex flex-col w-64 bg-forest-900/50 border-r border-forest-800/50 h-full">
+      <aside className="hidden lg:flex flex-col w-64 bg-forest-950/70 backdrop-blur-xl border-r border-forest-700/30 h-full">
         {/* Logo */}
         <div className="p-5 border-b border-forest-800/50">
           <div className="flex items-center gap-3">
@@ -197,7 +197,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
       </div>
 
       {/* Mobile Bottom Navigation */}
-      <nav className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-forest-950/95 backdrop-blur-xl border-t border-forest-800/60 safe-bottom">
+      <nav className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-forest-950/85 backdrop-blur-2xl border-t border-forest-700/40 safe-bottom shadow-2xl">
         <div className="flex items-center">
           {NAV_ITEMS.map((item) => {
             const isActive = location.pathname === item.to || (item.to !== '/' && location.pathname.startsWith(item.to))

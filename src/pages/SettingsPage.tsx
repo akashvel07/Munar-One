@@ -109,7 +109,7 @@ export default function SettingsPage() {
   ] as const
 
   return (
-    <div className="min-h-screen bg-forest-950">
+    <div className="min-h-screen bg-transparent">
       <div className="px-4 pt-6 pb-4">
         <h1 className="font-display text-2xl font-bold text-forest-100 mb-4">Settings</h1>
 

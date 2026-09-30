@@ -117,7 +117,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen min-h-dvh flex flex-col items-center justify-center relative overflow-hidden bg-forest-950">
+    <div className="min-h-screen min-h-dvh flex flex-col items-center justify-center relative overflow-hidden bg-transparent">
       {/* Background layers */}
       <div className="absolute inset-0">
         <div

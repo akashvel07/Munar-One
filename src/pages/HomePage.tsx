@@ -74,9 +74,9 @@ export default function HomePage() {
   ]
 
   return (
-    <div className="min-h-screen bg-forest-950 pb-safe">
+    <div className="min-h-screen bg-transparent pb-safe">
       {/* Hero Header */}
-      <div className="relative bg-gradient-to-b from-forest-900 to-forest-950 pt-safe">
+      <div className="relative bg-gradient-to-b from-forest-800/30 via-forest-900/20 to-transparent pt-safe">
         <div className="px-5 pt-6 pb-5">
           <div className="flex items-start justify-between">
             <div>

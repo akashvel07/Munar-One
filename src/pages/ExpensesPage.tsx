@@ -212,7 +212,7 @@ export default function ExpensesPage() {
   }
 
   return (
-    <div className="min-h-screen bg-forest-950">
+    <div className="min-h-screen bg-transparent">
       <div className="px-4 pt-6 pb-4">
         <div className="flex items-center justify-between mb-4">
           <h1 className="font-display text-2xl font-bold text-forest-100">Expenses</h1>

@@ -94,9 +94,9 @@ export default function ExplorePage() {
   const activeFilterCount = [selectedDifficulty, selectedDistance].filter(Boolean).length
 
   return (
-    <div className="min-h-screen bg-forest-950">
+    <div className="min-h-screen bg-transparent">
       {/* Header */}
-      <div className="sticky top-0 z-30 bg-forest-950/95 backdrop-blur-xl border-b border-forest-800/50 px-4 py-4">
+      <div className="sticky top-0 z-30 bg-forest-950/80 backdrop-blur-xl border-b border-forest-700/30 px-4 py-4">
         <h1 className="font-display text-2xl font-bold text-forest-100 mb-3">Explore Munnar</h1>
 
         {/* Search */}

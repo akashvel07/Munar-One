@@ -37,7 +37,7 @@ export default function PlaceDetailPage() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-forest-950">
+      <div className="min-h-screen bg-transparent">
         <div className="h-64 shimmer" />
         <div className="p-4 space-y-3">
           <div className="h-8 skeleton rounded-xl w-3/4" />
@@ -50,7 +50,7 @@ export default function PlaceDetailPage() {
 
   if (!place) {
     return (
-      <div className="min-h-screen bg-forest-950 flex items-center justify-center">
+      <div className="min-h-screen bg-transparent flex items-center justify-center">
         <div className="text-center">
           <Mountain className="w-12 h-12 text-forest-700 mx-auto mb-3" />
           <p className="text-forest-500">Place not found</p>
@@ -61,7 +61,7 @@ export default function PlaceDetailPage() {
   }
 
   return (
-    <div className="min-h-screen bg-forest-950">
+    <div className="min-h-screen bg-transparent">
       {/* Hero */}
       <div className="relative h-72">
         {place.image_url ? (

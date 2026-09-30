@@ -82,7 +82,7 @@ export default function ChecklistPage() {
   const totalChecked = items.filter(i => i.is_checked).length
 
   return (
-    <div className="min-h-screen bg-forest-950">
+    <div className="min-h-screen bg-transparent">
       <div className="px-4 pt-6 pb-4">
         <h1 className="font-display text-2xl font-bold text-forest-100 mb-1">Trip Checklist</h1>
         <p className="text-forest-500 text-sm mb-5">Shared with all trip members</p>

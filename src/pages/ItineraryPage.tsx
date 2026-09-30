@@ -264,9 +264,9 @@ export default function ItineraryPage() {
   }
 
   return (
-    <div className="min-h-screen bg-forest-950">
+    <div className="min-h-screen bg-transparent">
       {/* Header */}
-      <div className="sticky top-0 z-30 bg-forest-950/95 backdrop-blur-xl border-b border-forest-800/50">
+      <div className="sticky top-0 z-30 bg-forest-950/80 backdrop-blur-xl border-b border-forest-700/30">
         <div className="px-4 pt-5 pb-3">
           <h1 className="font-display text-2xl font-bold text-forest-100 mb-4">Itinerary</h1>
 

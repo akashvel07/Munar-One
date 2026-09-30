@@ -75,7 +75,7 @@ export default function MapPage() {
     : MUNNAR_CENTER
 
   return (
-    <div className="flex flex-col h-full min-h-screen bg-forest-950">
+    <div className="flex flex-col h-full min-h-screen bg-transparent">
       <div className="px-4 pt-6 pb-3 flex-shrink-0">
         <h1 className="font-display text-2xl font-bold text-forest-100">Map</h1>
         {permStatus === 'denied' && (

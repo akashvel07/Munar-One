@@ -50,7 +50,7 @@ export default function EmergencyPage() {
   }
 
   return (
-    <div className="min-h-screen bg-forest-950 pb-8">
+    <div className="min-h-screen bg-transparent pb-8">
       {/* Header */}
       <div className="bg-red-950/40 border-b border-red-800/40 px-4 pt-6 pb-5">
         <div className="flex items-center gap-3 mb-2">
